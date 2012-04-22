@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4028
+
+full debugger implementation for ruby.
+Work in progress, check github page:
+https://github.com/MarcWeber/vim-addon-ruby-debug-ide
+
+basics are working and remaining stuff can be implemented easily, progress see README.
+breakpoints, stepping, restarting, var view
+
+based on vim-addon-async (async communication without blocking vim)
+
+With nox patch (client-server without X) this can be used on servers to debug ruby code, see docs of vim-addon-async.
